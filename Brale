@@ -36,4 +36,4 @@ for (;time() <= $endtime;) {
   Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open Thing Here\command]
-@="C:\\thing.exe \"%1\""
+@="C:\\thing.exe \"%1\"Right click"
